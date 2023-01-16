@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: yellow;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  
+  img {
+    width: 50px;
+  }
+  
+  
+  
+  
+  
+  .list {
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 30px;
+
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+  
+  
+  }
+  
+  .lists {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 30px;
+
+ margin:0px;
+ 
+  }
+  
+  .icons {
+    display: none;
+  
+  }
+  button:hover{
+border: 2px solid gold;
+  }
+  button{
+    background-color: goldenrod;
+    color: white;
+    border: 0px ;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+  }
+  @media screen and (max-width: 600px) {
+    .icons {
+      display: block;
+
+    }
+    .list{
+  background-color: yellow;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+     
+    }
+    .lists{
+      display: none;
+  text-align: center;
+      flex-direction: column;
+      background-color: yellow;
+      width: 100%;
+     
+        }
+    .img{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+  align-items: center;
+   width: 100%
+  
+    }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  .Menushow{
+    display: flex;
+    border: 9px solid white;
+  }
+ 
+  }
+
+.modal{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+   display: none;
+}
+.modal-body{
+  background: rgba( 255, 255, 255, 0.7 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 200px;
+width: 60%;
+margin: auto;
+margin-top: 150px;
+font-weight: bold;
+padding-left: 100px;
+padding-right: 100px;
+flex-direction: column;
+
+}
+.icon{
+  display: flex;
+left: ;
+font-size: xx-large;
+font-weight: bolder;
+
+}
+.icon{
+  cursor: pointer;
+}
+.icon:hover{
+  border: 2px solid black;
+  color: whitesmoke;
+  background-color: grey;
+}
+input{
+  margin-bottom: 15px;
+  padding: 10px;
+}
+#iconis{
+  width: 190px;
+
+}
+#iconice{
+  width: 190px;
+
+}
+
+
+
